@@ -1,0 +1,25 @@
+autobahn-cpp (18.4.1+ind1) testing; urgency=medium
+
+  * New upstream version
+
+ -- Cedric Hombourger <cedric_hombourger@mentor.com>  Thu, 24 Jan 2019 20:50:16 +0100
+
+autobahn-cpp (17.5.1+git7cc5d37-2) unstable; urgency=medium
+
+  * Include forgotten headers wamp_publish_options.*
+
+ -- Konstantinos Margaritis <markos@debian.org>  Tue, 21 Nov 2017 23:58:08 +0200
+
+autobahn-cpp (17.5.1+git7cc5d37-1) unstable; urgency=medium
+
+  * New upstream version
+  * Move to OpenSSL 1.1 (Closes: #858386)
+  * Improve description (Closes: #855284)
+
+ -- Konstantinos Margaritis <markos@debian.org>  Tue, 21 Nov 2017 15:32:36 +0200
+
+autobahn-cpp (0.2.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #851575)
+
+ -- Konstantinos Margaritis <markos@debian.org>  Wed, 18 Jan 2017 10:25:44 +0100

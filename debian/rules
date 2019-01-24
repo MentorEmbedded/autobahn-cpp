@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+# See debhelper(7) (uncomment to enable)
+# output every command that modifies files on the build system.
+#export DH_VERBOSE = 1
+
+export DEB_CXXFLAGS_MAINT_APPEND = -DMSGPACK_DEFAULT_API_VERSION=1
+
+%:
+	dh $@ --parallel
+
